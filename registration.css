@@ -1,0 +1,135 @@
+@media screen and (max-width:800px)
+{
+    .left,.main,.right
+    {
+        width: 100px;
+    }
+}
+
+
+body{
+    background-image: url(images/farm5.jpg);
+    
+    background-size: cover;
+}
+.simple-form{
+    
+    
+    text-align: center;
+    margin: 40px 250px;
+    
+    
+    
+}
+
+#registration{
+    align-items: center;
+    width: 50%;
+   
+    background-color: #051019;
+    opacity: 0.8;
+    padding: 30px 80px;
+    padding-top: 0px;
+    background-position: center;
+    width: 400px;
+    
+}
+
+#button,#txtEmail{
+    width: 350px;
+    padding: 10px;
+    
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+    
+}
+
+#registration p{
+    font-family: sans-serif;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    
+    
+    
+    
+    
+}
+
+#registration span{
+    font-family: sans-serif;
+    color: white
+}
+
+#registration input[type="submit"]
+{
+    font-family: sans-serif
+    border: none;
+    outline: none;
+    height: 40px;
+   
+    background: #032F3E;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    
+}
+
+#registration input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #FF4000;
+    color: 000;
+    
+}
+
+/*
+=======
+Google Translation : Custom Styles
+*/
+.gt {
+  padding-top: 56px;
+  &__box {
+    background: #565656;
+    position: fixed;
+    padding: 10px;
+    color: #b8aea5;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  &__notif,
+  &__select {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &__notif {
+    max-width: calc(100% - 166px);
+    margin: 0;
+    padding-right: 1px;
+    line-height: 18px;
+    @media screen and (max-width: 767px) {
+      max-width: 100%;
+      margin: 0 0 10px 0;
+    }
+  }
+  &__select {
+    select {
+      outline: 0;
+    }
+  }
+}
+
+
+// This code is Not needed for GT purpose.
+.theme-content{
+  padding:15px;
+}
+

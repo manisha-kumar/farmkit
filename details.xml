@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<team_details>
+  <member>
+    <name>Aishwarya Sundaresan</name>
+    
+    <designation>Scripting</designation>
+    <description>graduated from University of california.Passion is to be a skinny legend.</description>
+  </member>
+  <member>
+    <name>Manisha Kumaran</name>
+    
+    <designation>designer</designation>
+    <description>Graduated for University of Ohio.Passion is to kill herself</description>
+  </member>
+  <member>
+    <name>Navin Joshi</name>
+
+    <designation>database admin</designation>
+    <description>Graduated from Pillai College.</description>
+  </member>
+ <member>
+    <name>Hemanshu</name>
+
+    <designation>database admin</designation>
+    <description>sadly didnt graduate.</description>
+  </member> 
+</team_details>
+
+

@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(images/land.jpg);
+    background-size: cover;
+    opacity: 0.7;
+}
+nav{
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    
+}
+
+ul{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+ul li:hover{
+    background: #F00658;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.toggle{
+    width: 100%;
+    padding: 10px 20px;
+    background: black;
+    text-align: right;
+    box-sizing: border-box;
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+@media(max-width:768)
+{
+.toggle
+    {
+        display: block
+    }
+
+
+ul{
+    width: 100%;
+    
+}
+ul li{
+    display: block;
+    text-align: center;
+}
+}
+
+
+.brand-quote{
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.quote{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    
+}

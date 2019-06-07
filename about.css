@@ -1,0 +1,219 @@
+
+@media screen and (max-width:800px)
+{
+    .left,.main,.right
+    {
+        width: 100px;
+    }
+}
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato" ,sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+        
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url(images/about1.jpg);
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url(images/about2.jpg);
+    min-height: 400px;
+}
+
+
+.pimg3{
+    background-image: url(images/about3.jpg);
+    min-height: 400px;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+    
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+    
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border{
+    background-color: #111;
+    color: white;
+    padding: 20px;
+}
+.head{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+select
+{
+  display: inline-block;
+    list-style-type: none;
+    
+    float: right;
+    margin-right: auto; 
+    background-color: transparent;
+    border: none;
+    font-size-adjust:15px;
+    font-size: 17px;
+   // width:120px;
+     
+}
+select > option
+{
+    background-color: white;
+    color: black;
+    
+    
+}
+
+.navbar-text{
+    text-decoration-color: aliceblue;
+    width:  10%;
+    color: orange;
+}
+
+.btn btn-outline-success my-2 my-sm-0{
+    background-color: orange;
+}
+
+.script img[type="height"]
+{
+    padding-top: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+=======
+Google Translation Default: Starts
+*/
+
+.skiptranslate.goog-te-gadget > div {
+  display: block;
+}
+
+select.google_translate_element {
+  color: black;
+}
+
+.goog {
+  &-logo-link {
+    display: none;
+  }
+  &-te-gadget {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    select {
+      border-radius: 0 !important;
+      -webkit-appearance: none;
+      -webkit-border-radius: 0px;
+      padding: 0.3rem 0.5rem;
+      min-width: 50px;
+      box-shadow: none;
+      border: 1px solid #aaa;
+    }
+  }
+}
+
+
+/*
+=======
+Google Translation : Custom Styles
+*/
+.gt {
+  padding-top: 56px;
+  &__box {
+    background: #565656;
+    position: fixed;
+    padding: 10px;
+    color: #b8aea5;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  &__notif,
+  &__select {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &__notif {
+    max-width: calc(100% - 166px);
+    margin: 0;
+    padding-right: 1px;
+    line-height: 18px;
+    @media screen and (max-width: 767px) {
+      max-width: 100%;
+      margin: 0 0 10px 0;
+    }
+  }
+  &__select {
+    select {
+      outline: 0;
+    }
+  }
+}
+
+
+// This code is Not needed for GT purpose.
+.theme-content{
+  padding:15px;
+}
+
+

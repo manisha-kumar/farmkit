@@ -1,0 +1,167 @@
+
+@media screen and (max-width:800px)
+{
+    .left,.main,.right
+    {
+        width: 100px;
+    }
+}
+
+body{
+    margin: 0;
+    background-color: white;
+    font-family: 'Montserrat',sans-serif;
+    
+}
+
+.head{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+select
+{
+  display: inline-block;
+    list-style-type: none;
+    
+    float: right;
+    margin-right: auto; 
+    background-color: transparent;
+    border: none;
+    font-size-adjust:15px;
+    font-size: 17px;
+   // width:120px;
+     
+}
+select > option
+{
+    background-color: white;
+    color: black;
+    
+    
+}
+
+.navbar-text{
+    text-decoration-color: aliceblue;
+    width:  10%;
+    color: orange;
+}
+
+.btn btn-outline-success my-2 my-sm-0{
+    background-color: orange;
+}
+
+.script img[type="height"]
+{
+    padding-top: none;
+}
+
+/*products*/
+
+
+
+.product{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 50px;
+}
+
+.product_section_title{
+    margin-top: 10%;
+    margin-left: 30px;
+    width: 100%;
+    display: inline-block;
+    font-size: 25px;
+    font-weight:300;
+    margin-bottom: 15px;
+}
+
+.product_item{
+    display: inline-block;
+    width: 100%;
+    float: left;
+     margin-left: 20px;
+    
+    }
+
+.item{
+    width: 24%;
+    float:left;
+    
+}
+
+.item-image{
+    position: relative;
+    border: 1px solid;
+    width: 80%;
+    height: 48%;
+    border-radius: 2px;
+    
+}
+
+.item-image img{
+    max-width: 95%;
+    
+}
+
+.item-image .item-button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0px 0px;
+    width: 0;
+    height: 100%;
+    background-color: rgba(125, 206, 160 ,0.7);
+    text-align: center;
+    opacity: 0;
+}
+.item-image .item-button a{
+    text-decoration: none;
+    color:#1E8449;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top: 50%;
+}
+
+.item-title{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 50%;
+}
+.item-title h5 {
+    
+    font-family: sans-serif;
+    margin-top: 7px;
+    font-size: 16px;
+    color:#222222;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.item-title p{
+    font-size: 16px;
+    color: #1E8449;
+    font-weight: 600;
+}
+
+.item:hover .item-button{
+    width: 100%;
+    opacity: 1;
+}
+
+ .product_item{
+    display: inline-block;
+    width: 100%;
+    float: left;
+    margin-left: 20px;   
+}
